@@ -31,5 +31,6 @@ El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la
 - **Cabe aclarar que este trabajo se realizo en COLBORATORY de google y para que la archivo pueda ser leido en el COLAB primero se debe agregar al mismo**
 
 1. Descargamos el archivo MODIFICADA1994
+   
 ![](https://github.com/Ragnar0905/Imbanaco-Proyecto/assets/132869848/eb5897e0-7a77-4a60-ab7a-f36c20e63fd8)
 
