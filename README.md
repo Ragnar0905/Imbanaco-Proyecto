@@ -15,7 +15,7 @@ En este proyecto que ira enfocado a una base de datos de la Clinica Imbanaco ubi
 - **Desc. C. Costo**: Descripción de la ubicación del equipo
 - **Razon social del provedor**: Banco con el cual realizaron la compra y deben dinero
 
-#### Descripcion del proyecto
+### Descripcion del proyecto
 Para este proyecto se realizaron los siguientes planteamientos:
 - **Limpieza de datos** : Identificación y manejo de los valores nulos o duplicados en el conjunto de datos. Tambien se realizara correnciones en los datos inconsistentes o erroneos.
 - **Visualizacion de los datos** : Utilización de matplotlib y seaborn para la visualizacion de graficos, además para asi explorar patrones, tendencias y relaciones entre los datos.
