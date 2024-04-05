@@ -42,5 +42,39 @@ El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la
 
 ![](https://github.com/Ragnar0905/Imbanaco-Proyecto/assets/132869848/8a677ea7-c172-479b-87e3-45d99318ea86)
 
+##### Importacion de librerias
 
+Importaremos librerias como seran la de pandas, numpy, matplotlib y seaborn
+````python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+````
+##### Manipulación de la base de datos
+
+Al importar nuestras librerias empezaremos a manipular nuestro archivo MODIFICADA1994.xlsx
+````
+data = pd.read_excel('MODIFICADA1994.xlsx') #Cargaremos el archivo a data
+print(data) #Visualizaremos los datos de ese archivo
+````
+Luego para observar con que tipo de datos estaremos usando usamos la funcion de pandas .info()
+````
+print(data.info()) #Esto desglosara una tabla con los datos que tenemos y su correspondiente tipo de dato
+````
+| #  | Column  | Non-Null Count | Dtype |
+| :------------ |:---------------:| -----:| -----:|
+| 0      | Activo | 112244 non-null | object |
+| 1     | Serial     | 112246 non-null| float64|
+| 2 | Unamed: 2        |    193031 non-null | float64|
+| 3     | Descripción | 93768 non-null | object |
+| 4  | Descripción Tencnica     |   85281 non-null | object |
+| 5 | Estado       |    86987 non-null | object |
+| 6      | Fecha | 112244 non-null | object |
+| 7     | Costo     |   86987 non-null | object |
+| 8 | Saldo       |    86987 non-null | object |
+| 9      | C. Costo | 86987 non-null | float64|
+| 10     | Desc. C.Costo     |   86987 non-null | object|
+| 11 | Razon Social provedor        |    69770 non-null | object|
+| 12 | Periodos a depreciar PCGA        |    86987 non-null | float64|
 
