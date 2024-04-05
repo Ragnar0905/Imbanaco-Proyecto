@@ -196,7 +196,7 @@ retirados
 
 Esto nos lanzara la cantidad de datos que quedara la columna el estado
 
-````pyhton
+````python
 df = df.dropna(subset=['ESTADO'])
 nulos_estado = df['ESTADO'].isnull().sum()
 nulos_estado
