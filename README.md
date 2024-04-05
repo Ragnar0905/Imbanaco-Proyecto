@@ -1,7 +1,6 @@
 # Imbanaco-Proyecto :blue_book:
 
-**Contexto** :grey_exclamation:
-
+### **Contexto** 
 En este proyecto que ira enfocado a una base de datos de la Clinica Imbanaco ubicada en la ciudad de Cali-Colombia analisamos y observamos diferentes equipos que adquierieron desde el año 1994 hasta el 2018.
 
 ### Datos que encontraremos en la base de datos
