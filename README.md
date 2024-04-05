@@ -227,7 +227,7 @@ print("Cantidad de datos con estado 'Retirado' y saldo diferente de '$ 0,00':", 
 >Cantidad de datos con estado 'Retirado' y saldo diferente de '$ 0,00': 0
 
 **Activo**
-````
+````python
 # Vamos a comparar los equipos que estan Activo pero tienen un saldo por pagar
 Activo_no_cero = df[(df['ESTADO'] == 'Activo') & (df['SALDO'] != '$ 0,00')]
 
@@ -247,7 +247,7 @@ print("Cantidad de datos con estado 'Despreciado' y saldo diferente de '$ 0,00':
 >Cantidad de datos con estado 'Despreciado' y saldo diferente de '$ 0,00': 0
 
 **Pendiente**
-````
+````python
 # Vamos a comparar los equipos que estan retirados pero tienen un saldo por pagar
 Pendiente_no_cero = df[(df['ESTADO'] == 'Pendiente') & (df['SALDO'] != '$ 0,00')]
 
@@ -258,9 +258,4 @@ print("Cantidad de datos con estado 'Pendiente' y saldo diferente de '$ 0,00':",
 
 ### Visualizacion de la base de datos
 
-````python
-#eliminacion de las columnas
-df.drop(columns=['DESCRIPCION TECNICA'], inplace=True)
-df.drop(columns=['Unnamed: 2'], inplace=True) #Nos dimos cuenta que es el mismo que el serial
-df.drop(columns=['Razon social proveedor', "Periodos a depreciar PCGA"], inplace=True)
-````
+
