@@ -8,11 +8,12 @@ En este proyecto que ira enfocado a una base de datos de la Clinica Imbanaco ubi
 El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la cual se observan equipos que llevan tiempo con un saldo que no ah cubierto la institución, por ende se realiza el analisis y la organización de los datos para que esta se ponga al dia con las deudas de sus equipos.
 
 ### 🔍Datos que encontraremos en el repositorio🔍
+‼️**NOTA: El codigo de la limpieza, visualizacion y manejo de MySQL se encontraran en proyectoAlmacenamiento.ipynb**‼️
 
 - Excel de la base de datos Modificada1994 (ANTES DE LA LIMPIEZA)
 - Codigo en lenguaje python para la limpieza y visualizacion de los datos **(Formato .ipynb)**
 - Codigo en lenguaje python para manejo de MySQL **(Formato .ipynb)**
-- Base de datos despues de la limpieza
+- Base de datos df_final.csv (DESPUES DE LA LIMPIEZA)
 
 *Datos que encontraremos en el excel de MODIFICADA1994*
 
