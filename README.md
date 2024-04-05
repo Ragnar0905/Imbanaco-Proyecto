@@ -54,12 +54,12 @@ import matplotlib.pyplot as plt
 ##### Manipulación de la base de datos
 
 Al importar nuestras librerias empezaremos a manipular nuestro archivo MODIFICADA1994.xlsx
-````
+````python
 data = pd.read_excel('MODIFICADA1994.xlsx') #Cargaremos el archivo a data
 print(data) #Visualizaremos los datos de ese archivo
 ````
 Luego para observar con que tipo de datos estaremos usando usamos la funcion de pandas .info()
-````
+````python
 print(data.info()) #Esto desglosara una tabla con los datos que tenemos y su correspondiente tipo de dato
 ````
 | #  | Column  | Non-Null Count | Dtype |
