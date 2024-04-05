@@ -29,8 +29,18 @@ El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la
 :exclamation: :heavy_exclamation_mark:**Antes de empezar con el desarrollo por favor installar el archivo MODIFICADA1994 que sera el archivo con el cual vamos a trabajar**:exclamation: :heavy_exclamation_mark:
 
 - **Cabe aclarar que este trabajo se realizo en COLBORATORY de google y para que la archivo pueda ser leido en el COLAB primero se debe agregar al mismo**
+- 
+1. Descargamos el archivo MODIFICADA1994.
 
-1. Descargamos el archivo MODIFICADA1994
-   
 ![](https://github.com/Ragnar0905/Imbanaco-Proyecto/assets/132869848/eb5897e0-7a77-4a60-ab7a-f36c20e63fd8)
+
+2. Cargamos archivo.
+
+![](https://github.com/Ragnar0905/Imbanaco-Proyecto/assets/132869848/6d177d1b-3e4d-430f-a7b6-de1e085a7d3a)
+
+3. Cargamos el archivo MODIFICADA1994.xlsx en el COLAB
+
+![](https://github.com/Ragnar0905/Imbanaco-Proyecto/assets/132869848/8a677ea7-c172-479b-87e3-45d99318ea86)
+
+
 
