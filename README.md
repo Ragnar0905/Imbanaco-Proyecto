@@ -78,3 +78,63 @@ print(data.info()) #Esto desglosara una tabla con los datos que tenemos y su cor
 | 11 | Razon Social provedor        |    69770 non-null | object|
 | 12 | Periodos a depreciar PCGA        |    86987 non-null | float64|
 
+Por otro lado si queremos ver los primeros 5 datos de esta base podemos usar la funcion de pandas que nos lo permite la cual es .head()
+
+````python
+data.head() #Esto desglosara los primero 5 datos de la base de datos
+````
+
+##### Limpieza de Datos
+
+**(Antes de empezar con la limpieza es una buena costumbre de realizar una copia de nuestra base de datos)**
+`````python
+df=data.copy() #Funcion de pandas
+`````
+Al haber realizado la copia de nuestra base datos miraremos los duplicados que tiene solo la columna de nuestro serial. Asi este nos mostrara que filas estan con el mismo serial.
+````python
+df[df.duplicated(subset='Serial')] #Duplicados solo por serial
+# Muestra las filas duplicadas
+print("Filas duplicadas por Serial:")
+print(df)
+````
+Luego realizaremos la eliminacion de esos seriales duplicados
+````python
+# Eliminación de datos duplicados
+df.drop_duplicates(subset=['Serial'], inplace=True)
+print("Número total de filas después de eliminar duplicados:", df.shape[0])
+````
+El print nos mostrara lo siguiente:
+> Número total de filas después de eliminar duplicados: 108509
+
+Al tener en cuenta los datos duplicados eliminados pasaremos a ver cuantos nulos tiene cada fila
+````python
+#Conteo datos nulos
+datos_nulos = df.isnull().sum()
+print(datos_nulos)
+````
+Esto sacara en consola lo siguiente:
+
+> 
+Activo                           1
+Serial                           1
+Unnamed: 2                       7
+Descripcion                  18190
+DESCRIPCION TECNICA          25970
+ESTADO                       24927
+Fecha                            1
+Costo                        24927
+SALDO                        24927
+C. Costo                     24927
+Desc. C.Costo                24927
+Razon social proveedor       41513
+Periodos a depreciar PCGA    24927
+dtype: int64
+
+Luego observamos que muchas columnas tienen muchos datos nulos (NaN) para este analisis que queremos realizar eliminaremos las siguientes columnas Descripcion Tencina, Unamed: 2, Razon social proveedor y Periodos a depreciar PCGA ya que para el analisis que queremos realizar sus datos nos son irrelevantes 
+
+````python
+#eliminacion de las columnas
+df.drop(columns=['DESCRIPCION TECNICA'], inplace=True)
+df.drop(columns=['Unnamed: 2'], inplace=True) #Nos dimos cuenta que es el mismo que el serial
+df.drop(columns=['Razon social proveedor', "Periodos a depreciar PCGA"], inplace=True)
+````
