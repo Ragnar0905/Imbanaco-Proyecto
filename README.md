@@ -114,21 +114,33 @@ print(datos_nulos)
 ````
 Esto sacara en consola lo siguiente:
 
-> 
-Activo                           1
-Serial                           1
-Unnamed: 2                       7
-Descripcion                  18190
-DESCRIPCION TECNICA          25970
-ESTADO                       24927
-Fecha                            1
-Costo                        24927
-SALDO                        24927
-C. Costo                     24927
-Desc. C.Costo                24927
-Razon social proveedor       41513
-Periodos a depreciar PCGA    24927
-dtype: int64
+> Activo                           1
+>
+>Serial                           1
+>
+>Unnamed: 2                       7
+>
+>Descripcion                  18190
+>
+>DESCRIPCION TECNICA          25970
+>
+>ESTADO                       24927
+>
+>Fecha                            1
+>
+>Costo                        24927
+>
+>SALDO                        24927
+>
+>C. Costo                     24927
+>
+>Desc. C.Costo                24927
+>
+>Razon social proveedor       41513
+>
+>Periodos a depreciar PCGA    24927
+>
+>dtype: int64
 
 Luego observamos que muchas columnas tienen muchos datos nulos (NaN) para este analisis que queremos realizar eliminaremos las siguientes columnas Descripcion Tencina, Unamed: 2, Razon social proveedor y Periodos a depreciar PCGA ya que para el analisis que queremos realizar sus datos nos son irrelevantes 
 
