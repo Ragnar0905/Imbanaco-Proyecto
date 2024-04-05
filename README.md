@@ -28,7 +28,7 @@ Para este proyecto se realizaron los siguientes planteamientos:
 ## ✍️Desarrollo✍️
 El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la cual se observan equipos que llevan tiempo con un saldo que no ah cubierto la institución, por ende se realiza el analisis y la organización de los datos para que esta se ponga al dia con las deudas de sus equipos.
 
-**Antes de empezar con el desarrollo por favor installar el archivo MODIFICADA1994 que sera el archivo con el cual vamos a trabajar**:exclamation: :heavy_exclamation_mark:
+‼️‼️**Antes de empezar con el desarrollo por favor installar el archivo MODIFICADA1994 que sera el archivo con el cual vamos a trabajar**‼️‼️
 
 **Cabe aclarar que este trabajo se realizo en COLBORATORY de google y para que la archivo pueda ser leido en el COLAB primero se debe agregar al mismo**
 
