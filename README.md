@@ -6,5 +6,7 @@ En este proyecto que ira enfocado a una base de datos de la Clinica Imbanaco ubi
 
 ### Datos que encontraremos en la base de datos
 > **Activo fijo**:  Numero que le otorga la institucion al equipo
+> 
 > **Serial** : Numero que identifica al equipo
+> 
 > **Estado**:  Muestra si el equipo estara ac
