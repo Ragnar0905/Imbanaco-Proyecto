@@ -2,10 +2,11 @@
 
 ### **Contexto** 
 
-En este proyecto que ira enfocado a una base de datos de la Clinica Imbanaco ubicada en la ciudad de Cali-Colombia analisamos y observamos diferentes equipos que adquierieron desde el año 1994 hasta el 2018.
+Este proyecto esta enfocado en el analisis de la base de datos de equipos que adquierieron desde el año 1994 hasta el año 2018 en la Clinica Imbanaco ubicada en la ciudad de Cali (Colombia).
 
-### ⚠️*Problematica*⚠️
-El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la cual se observan equipos que llevan tiempo con un saldo que no ah cubierto la institución, por ende se realiza el analisis y la organización de los datos para que esta se ponga al dia con las deudas de sus equipos.
+### ⚠️*Problemática*⚠️
+La Clínica Imbanaco cuenta con una base de datos donde registran los equipos adquiridos, se requiere analizarla y organizarla para determinar cuales de 
+ellos tienen saldo pendiente de pago para ponerse al día.
 
 ### 🔍Datos que encontraremos en el repositorio🔍
 ‼️**NOTA: El codigo de la limpieza, visualizacion y manejo de MySQL se encontraran en proyectoAlmacenamiento.ipynb**‼️
@@ -50,7 +51,6 @@ El proyecto se enfoca principalmente en la base de datos de MODIFICADA1994 en la
 Para este proyecto se realizaron los siguientes planteamientos:
 - **Limpieza de datos** : Identificación y manejo de los valores nulos o duplicados en el conjunto de datos. Tambien se realizara correnciones en los datos inconsistentes o erroneos.
 - **Visualizacion de los datos** : Utilización de matplotlib y seaborn para la visualizacion de graficos, además para asi explorar patrones, tendencias y relaciones entre los datos.
-- **Analisis exploratorio de los datos (EDA)** : Calculo de estadisticas descriptivas para comprender mejor la distribución de los datos, complementando asi un analisis exploratorio entre las diferentes variables.
 - **Implementacion en MySQL**: Transferencia del dataframe de Pandas a una base de datos en MySQL, usando la conexion desde python
 
 - **(No se realizaron imputaciones de los datos)**
